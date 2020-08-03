@@ -33,11 +33,11 @@ body {
   align-items: flex-start;
 }
 
-#page-home .content header a {
+#page-home .content header p {
   text-decoration: none;
-  font-size: 64px;
+  font-size: 32px;
   font-weight: 600;
-  line-height: 78px;
+  line-height: 42px;
   color: var(--title-color);
 }
 
@@ -55,8 +55,8 @@ body {
 }
 
 #page-home .content main h1 {
-  font-size: 38px;
-  line-height: 46px;
+  font-size: 32px;
+  line-height: 42px;
   font-weight: 600;
   color: var(--text-color);
 
@@ -68,8 +68,8 @@ body {
 }
 
 #page-home .content main img {
-  margin-top: 40px;
-  width: 300px;
+  margin-top: 60px;
+  width: 450px;
 }
 
 #page-home .content footer {
