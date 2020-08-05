@@ -18,16 +18,15 @@ body {
 }
 
 #page-home {
+  width: 100%;
   height: 100vh;
 }
 
 #page-home .content {
   width: 100%;
   height: 100%;
-  
   margin: 0 auto;
   padding: 47px 64px;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -43,11 +42,8 @@ body {
 
 #page-home .content main {
   flex: 1;
-
   margin: auto;
-
   max-width: 560px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,13 +72,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0 auto;
 
-  margin: auto;
 }
 
 #page-home .content footer ul {
   list-style-type: none;
-
   display: flex;
   align-items: center;
 }
@@ -98,3 +93,49 @@ body {
 #page-home .content footer ul li a img {
   width: 40px;
 }
+
+/*========================================================*/
+/* Telefones em paisagem e abaixo */
+@media (max-width: 766px) {
+  
+  #page-home .content header p{
+    text-decoration: none;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 70px;
+    color: var(--title-color);
+    }
+
+    #page-home .content main img {
+      margin-top: 60px;
+      width: 380px;
+    }    
+
+    #page-home .content main {
+      flex: 1;
+      max-width: 314px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #page-home .content main h1 {
+      font-size: 27px;
+      line-height: 42px;
+      font-weight: 600;
+      color: var(--text-color);
+    }
+    
+    #page-home .content footer ul li a img {
+      width: 30px;
+    }
+}
+
+
+
+
+
+
