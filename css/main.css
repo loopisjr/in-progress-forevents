@@ -36,6 +36,7 @@ body {
 #page-home .content header p {
   text-decoration: none;
   font-size: 32px;
+  display: none;
   font-weight: 600;
   line-height: 42px;
   color: var(--title-color);
@@ -72,9 +73,8 @@ body {
 #page-home .content footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
-
 }
 
 #page-home .content footer ul {
@@ -99,10 +99,11 @@ body {
 /* Telefones em paisagem e abaixo */
 @media (max-width: 700px) {
   #page-home .content header p {
+    display: block;
     font-size: 20px;
   }
   #page-home .content main h1 {
-    font-size: 27px;
+    font-size: 20px;
   }
   #page-home .content main img {
     margin-top: 60px;
@@ -121,6 +122,7 @@ body {
   }
   #loopis{
     width: 150px;
+    margin-left: -20px;
   } 
 }
 
